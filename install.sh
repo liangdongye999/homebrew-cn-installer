@@ -3,7 +3,7 @@
 
 setup-homebrew() {
 # 配置Homebrew镜像
-cat << EOF
+cat << EOF | tee -a ~/.bash_profile ~/.zprofile
 
 export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
 export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"
@@ -12,7 +12,7 @@ export HOMEBREW_PIP_INDEX_URL="https://mirrors.tuna.tsinghua.edu.cn/pypi/web/sim
 export HOMEBREW_API_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/api"
 export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles"
 
-EOF | tee -a ~/.bash_profile | tee -a ~/.zprofile
+EOF
 
 source ~/.bash_profile
 
