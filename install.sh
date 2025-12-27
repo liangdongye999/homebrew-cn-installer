@@ -14,6 +14,8 @@ export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bot
 
 EOF | tee -a ~/.bash_profile | tee -a ~/.zprofile
 
+source ~/.bash_profile
+
 # 安装Homebrew
 git clone --depth=1 https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/install.git brew-install
 /bin/bash brew-install/install.sh
