@@ -17,7 +17,7 @@
 使用以下命令直接在线安装：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/your-repo/hombrew-cn-installer/main/install.sh | bash
+curl -fsSL https://github.com/liangdongye999/homebrew-cn-installer/raw/refs/heads/main/install.sh | bash
 ```
 
 安装过程中会提示选择操作：
@@ -30,7 +30,7 @@ curl -fsSL https://raw.githubusercontent.com/your-repo/hombrew-cn-installer/main
 
 1. **下载脚本**:
    ```bash
-   curl -O https://raw.githubusercontent.com/your-repo/hombrew-cn-installer/main/install.sh
+   curl -O https://github.com/liangdongye999/homebrew-cn-installer/raw/refs/heads/main/install.sh
    ```
 
 2. **运行脚本**:
